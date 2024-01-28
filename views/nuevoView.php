@@ -19,9 +19,9 @@
 		<input type="text" name="codigo">
 		</br>
 
-		<?php echo isset($errores["item"]) ? "*" : "" ?>
-		<label for="item">Item</label>
-		<input type="text" name="item">
+		<?php echo isset($errores["Item"]) ? "*" : "" ?>
+		<label for="Item">Item</label>
+		<input type="text" name="Item">
 		</br>
 
 		<input type="submit" name="submit" value="Aceptar">
