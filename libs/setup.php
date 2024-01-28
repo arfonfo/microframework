@@ -15,9 +15,12 @@ $config->set('viewsFolder', 'views/');
 //$config->set('dbpass', '');
 
 
-$config->set('dbhost', 'monorail.proxy.rlwy.net:44890');
+$config->set('dbhost', 'viaduct.proxy.rlwy.net:44890');
 $config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
 $config->set('dbpass', 'E2B4EAGCc52bdgFecAGH6Edfcd-dGH-H');
+
+
+// mysql://root:E2B4EAGCc52bdgFecAGH6Edfcd-dGH-H@viaduct.proxy.rlwy.net:44890/railway
 
 ?>
