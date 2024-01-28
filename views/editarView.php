@@ -12,16 +12,16 @@
 
 	<form action="index.php">
 
-		<input type="hidden" name="controlador" value="Item">
+		<input type="hidden" name="controlador" value="item">
 		<input type="hidden" name="accion" value="editar">
 
 		<label for="codigo">Codigo</label>
 		<input type="text" name="codigo" value="<?php echo $item->getCodigo(); ?>">
 		</br>
 
-		<?php echo isset($errores["Item"]) ? "*" : "" ?>
-		<label for="Item">Item</label>
-		<input type="text" name="Item" value="<?php echo $item->getItem(); ?>">
+		<?php echo isset($errores["item"]) ? "*" : "" ?>
+		<label for="item">Item</label>
+		<input type="text" name="item" value="<?php echo $item->getItem(); ?>">
 		</br>
 
 		<input type="submit" name="submit" value="Aceptar">
